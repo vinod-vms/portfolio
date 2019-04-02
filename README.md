@@ -8,7 +8,7 @@ My personal portfolio website made using HTML5, CSS3 and vanilla JavaScript. I p
 VS Code
 
 ### Hosting
-The site is hosted on Netlify from GitHub. https://vinod-8110ca.netlify.com/
+The site is hosted on Netlify from GitHub. https://vinod-vms.netlify.com/
 
 ### License
 MIT © Vinod Mathew Sebastian
