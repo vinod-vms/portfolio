@@ -20,6 +20,12 @@
         height:0;
         width:0;
     }
+    .midsection2 {
+        padding:0;
+        margin:0;
+        height:0;
+        width:0;
+    }
     #page {
         max-width: 1200px;
         margin: 0 auto;
@@ -714,6 +720,10 @@
             }
             .midsection {
                 height:30px;
+                width:100%;
+            }
+            .midsection2 {
+                height:100px;
                 width:100%;
             }
         }
