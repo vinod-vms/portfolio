@@ -51,11 +51,59 @@ a:hover {
 }
 
 @media all and (max-width:768px) {
+    a, p {
+        font-size:1em;
+    }
+    h1 {
+        font-size:1.6em;
+    }
+    h2 {
+        font-size:1.5em;
+    }
+    h3 {
+        font-size:1.4em;
+    }
+    h4 {
+        font-size:1.3em;
+    }
+    h5 {
+        font-size:1.1em;
+    }
+    
     .style-padding {
         padding-top:0px;
     }
     .middle {
         padding-top:20px;
     }
-    
+    .top-padding {
+        padding-top:25px;
+    }
+    h2.display-4 {
+        font-size:2.5em;
+    }
+}
+
+@media all and (max-width:350px) {
+    a, p {
+        font-size:0.8em;
+    }
+    h1 {
+        font-size:1.4em;
+    }
+    h2 {
+        font-size:1.3em;
+    }
+    h3 {
+        font-size:1.2em;
+    }
+    h4 {
+        font-size:1.1em;
+    }
+    h5 {
+        font-size:0.9em;
+    }
+   h2.display-4 {
+       font-size:2.2em;
+   }
 }

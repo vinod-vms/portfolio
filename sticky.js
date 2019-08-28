@@ -12,22 +12,39 @@ var logo = document.getElementById("logo"),
 function stickyNavFunction() {
 
     var x = window.matchMedia("(max-width: 768px)");
+    var y = window.matchMedia("(max-width: 350px)");
     
-   if (x.matches) {
+   if (y.matches) {
    if ( window.pageYOffset <= sticky) {
     logo.style.backgroundImage = "url('./logo_green.svg')";
     logo.style.backgroundSize = "contain";
     logo.style.backgroundRepeat = "no-repeat";
-    logo.style.height = "44px";
-    logo.style.width = "171px";
+    logo.style.height = "34px";
+    logo.style.width = "128px";
 
    } else if (window.pageYOffset >= sticky) {
     logo.style.backgroundImage = "url('./logo_green2.svg')";
     logo.style.backgroundSize = "contain";
     logo.style.backgroundRepeat = "no-repeat";
-    logo.style.height = "44px";
-    logo.style.width = "171px";
+    logo.style.height = "34px";
+    logo.style.width = "128px";
    }
+}
+else if (x.matches) {
+    if ( window.pageYOffset <= sticky) {
+        logo.style.backgroundImage = "url('./logo_green.svg')";
+        logo.style.backgroundSize = "contain";
+        logo.style.backgroundRepeat = "no-repeat";
+        logo.style.height = "44px";
+        logo.style.width = "171px";
+    
+       } else if (window.pageYOffset >= sticky) {
+        logo.style.backgroundImage = "url('./logo_green2.svg')";
+        logo.style.backgroundSize = "contain";
+        logo.style.backgroundRepeat = "no-repeat";
+        logo.style.height = "44px";
+        logo.style.width = "171px";
+       }
 }
    else{
     if ( window.pageYOffset <= sticky) {
