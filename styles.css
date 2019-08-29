@@ -32,6 +32,13 @@ display:flex;
 align-items:center;
 justify-content:center;
 }
+
+ul li {
+    list-style: none;
+}
+
+
+
 a {
     color:#000;
     text-decoration:underline;
@@ -51,7 +58,20 @@ a:hover {
 }
 
 @media all and (max-width:768px) {
-    a, p {
+    #myUl {
+        font-size:1em;
+    }
+    #myUl li {
+        list-style: disc;
+    
+    }
+
+    
+    ul > li > a {
+        text-decoration: underline;
+    }
+    
+    p, a {
         font-size:1em;
     }
     h1 {
@@ -85,8 +105,12 @@ a:hover {
 }
 
 @media all and (max-width:350px) {
-    a, p {
+    
+    p, a {
         font-size:0.8em;
+    }
+    p.text-center > a {
+        font-size:1em;
     }
     h1 {
         font-size:1.4em;
