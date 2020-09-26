@@ -60,7 +60,9 @@ text-decoration-color:#0F9D58;
 .style-padding {
     padding-top:20px;
 }
-
+footer {
+margin-top:10px;
+}
 @media all and (max-width:768px) {
     #myUl {
         font-size:1em;
