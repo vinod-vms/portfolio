@@ -53,6 +53,10 @@ a:hover {
 #india, #us, #bbc {
     cursor: pointer;
 }
+.soft_w {
+text-decoration:underline;
+text-decoration-color:#0F9D58;
+}
 .style-padding {
     padding-top:20px;
 }
